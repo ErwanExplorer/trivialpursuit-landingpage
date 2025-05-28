@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className="h-8 w-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
                   <Brain className="h-5 w-5 text-white" />
                 </div>
-                <span className="text-xl font-bold text-white">TechTrivia</span>
+                <span className="text-xl font-bold text-white">Trivial Pursuit SN</span>
               </div>
               <p className="text-slate-400">
                 Le quiz informatique qui défie vos connaissances techniques
@@ -49,7 +49,7 @@ const Footer = () => {
           </div>
           
           <div className="border-t border-slate-800 mt-12 pt-8 text-center text-slate-400">
-            <p>&copy; 2025 TechTrivia. Tous droits réservés.</p>
+            <p>&copy; 2025 Trivial Pursuit SN. Tous droits réservés.</p>
           </div>
         </div>
       </footer>

@@ -52,11 +52,11 @@ export default function TrivialPursuitLanding() {
 
   const categories = [
     { icon: <Code className="h-5 w-5" />, name: "Programmation", color: "bg-blue-500", onClick: () => window.location.href = '/quiz-programmation' },
-    { icon: <Database className="h-5 w-5" />, name: "Bases de Données", color: "bg-green-500", onClick: () => window.location.href = '/quiz-cybersecurite' },
+    { icon: <Database className="h-5 w-5" />, name: "Culture Geek", color: "bg-green-500", onClick: () => window.location.href = '/culturegeek' },
     { icon: <Shield className="h-5 w-5" />, name: "Cybersécurité", color: "bg-red-500", onClick: () => window.location.href = '/quiz-cybersecurite' },
-    { icon: <Cpu className="h-5 w-5" />, name: "Hardware", color: "bg-purple-500" },
-    { icon: <Globe className="h-5 w-5" />, name: "Réseaux", color: "bg-orange-500" },
-    { icon: <Brain className="h-5 w-5" />, name: "IA & ML (NOUVEAU !)", color: "bg-pink-500" }
+    { icon: <Cpu className="h-5 w-5" />, name: "Hardware", color: "bg-purple-500", onClick: () => window.location.href = '/hardware' },
+    { icon: <Globe className="h-5 w-5" />, name: "Réseaux", color: "bg-orange-500", onClick: () => window.location.href = '/reseau' },
+    { icon: <Brain className="h-5 w-5" />, name: "IA & Robotique (NOUVEAU !)", color: "bg-pink-500", onClick: () => window.location.href = '/ia' }
   ]
 
   const stats = [
@@ -126,7 +126,7 @@ export default function TrivialPursuitLanding() {
       <section className="container mx-auto px-6 py-20">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-white mb-4">
-            Pourquoi choisir TechTrivia ?
+            Pourquoi choisir Trivial Pursuit SN ?
           </h2>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
             Une expérience de quiz unique, conçue pour les passionnés de technologie

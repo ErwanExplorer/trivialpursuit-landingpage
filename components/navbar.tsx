@@ -16,7 +16,7 @@ const Navbar = () => {
               <Brain className="h-5 w-5 text-white" />
             </div>
             <span className="text-xl font-bold text-white"  onClick={() => router.push('/')}
-          >TechTrivia</span>
+          >Trivial Pursuit SN</span>
           </div>
           <div className="flex items-center space-x-4">
             <Button variant="ghost" className="text-white hover:text-purple-300">
