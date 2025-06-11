@@ -81,13 +81,13 @@ export default function TrivialPursuitLanding() {
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             Le Trivial Pursuit de
             <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              {" "}l'Informatique
+              {" "}l&apos;Informatique
             </span>
           </h1>
           
           <p className="text-xl text-slate-300 mb-10 max-w-2xl mx-auto leading-relaxed">
             Testez vos connaissances tech, défiez vos amis et grimpez dans les classements. 
-            De la programmation à l'IA, explorez tous les univers de l'informatique !
+            De la programmation à l&apos;IA, explorez tous les univers de l&apos;informatique !
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
@@ -225,7 +225,7 @@ export default function TrivialPursuitLanding() {
               Prêt à tester vos connaissances ?
             </h2>
             <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
-              Rejoignez des milliers de développeurs, étudiants et professionnels IT qui s'amusent tout en apprenant
+              Rejoignez des milliers de développeurs, étudiants et professionnels IT qui s&apos;amusent tout en apprenant
             </p>
             <Button 
               size="lg" 
