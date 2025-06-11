@@ -34,18 +34,18 @@ const TeamPage = () => {
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center p-6 bg-slate-700/30 rounded-lg">
                 <User className="h-8 w-8 text-purple-400 mx-auto mb-3" />
-                <h3 className="text-white font-semibold mb-2">Erwan</h3>
-                <p className="text-slate-300">CEO et Développeur</p>
+                <h3 className="text-white font-semibold mb-2">Erwan Sagnardon</h3>
+                <p className="text-slate-300">CEO (Chef de projet) et Développeur Web</p>
               </div>
               <div className="text-center p-6 bg-slate-700/30 rounded-lg">
                 <User className="h-8 w-8 text-purple-400 mx-auto mb-3" />
-                <h3 className="text-white font-semibold mb-2">Faran</h3>
-                <p className="text-slate-300">CTO (Directeur Technique)</p>
+                <h3 className="text-white font-semibold mb-2">Mathéo Fontaine</h3>
+                <p className="text-slate-300">CTO (Directeur Technique) et Designer</p>
               </div>
               <div className="text-center p-6 bg-slate-700/30 rounded-lg">
                 <User className="h-8 w-8 text-purple-400 mx-auto mb-3" />
-                <h3 className="text-white font-semibold mb-2">Gabriel</h3>
-                <p className="text-slate-300">Développeur</p>
+                <h3 className="text-white font-semibold mb-2">Gabriel CHARPENTIER</h3>
+                <p className="text-slate-300">Développeur Web</p>
               </div>
             </div>
           </CardContent>
