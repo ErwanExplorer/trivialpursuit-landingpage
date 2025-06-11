@@ -1,15 +1,11 @@
 'use client'
 import React from 'react';
-import { Brain, User, Code } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Brain, User } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Home } from 'lucide-react';
-import { useRouter } from 'next/navigation';
 import Navbar from './navbar';
 import Footer from './Footer';
 
 const TeamPage = () => {
-  const router = useRouter();
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 p-6">
       <div className="container mx-auto max-w-4xl">

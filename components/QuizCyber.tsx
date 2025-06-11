@@ -498,7 +498,7 @@ export default function QuizCyber() {
               onClick={() => router.push('/')}
             >
               <Home className="h-4 w-4 mr-2" />
-              Retour à l'accueil
+              Retour à l&apos;accueil
             </Button>
           </div>
 
@@ -807,7 +807,7 @@ export default function QuizCyber() {
                   onClick={() => router.push('/')}
                 >
                   <Home className="h-4 w-4 mr-2" />
-                  Retour à l'accueil
+                  Retour à l&apos;accueil
                 </Button>
               </div>
             </CardContent>
