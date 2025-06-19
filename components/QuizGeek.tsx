@@ -661,7 +661,7 @@ export default function QuizCultureGeek() {
               onClick={() => router.push('/')}
             >
               <Home className="h-4 w-4 mr-2" />
-              Retour à l'accueil
+              Retour à l&apos;accueil
             </Button>
           </div>
 
@@ -674,8 +674,8 @@ export default function QuizCultureGeek() {
                 Quiz Culture Geek
               </CardTitle>
               <CardDescription className="text-lg text-slate-300 max-w-2xl mx-auto">
-                Testez vos connaissances sur l'univers tech ! 
-                Histoire de l'informatique, grandes entreprises, technologies... 10 questions random pour un max de fun !
+                Testez vos connaissances sur l&apos;univers tech ! 
+                Histoire de l&apos;informatique, grandes entreprises, technologies... 10 questions random pour un max de fun !
               </CardDescription>
             </CardHeader>
 
@@ -974,7 +974,7 @@ export default function QuizCultureGeek() {
                   onClick={() => router.push('/')}
                 >
                   <Home className="h-4 w-4 mr-2" />
-                  Retour à l'accueil
+                  Retour à l&apos;accueil
                 </Button>
               </div>
             </CardContent>

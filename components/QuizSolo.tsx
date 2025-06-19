@@ -207,7 +207,7 @@ export default function QuizSolo() {
               onClick={() => router.push('/')}
             >
               <Home className="h-4 w-4 mr-2" />
-              Retour à l'accueil
+              Retour à l&apos;accueil
             </Button>
           </div>
 
@@ -221,7 +221,7 @@ export default function QuizSolo() {
               </CardTitle>
               <CardDescription className="text-lg text-slate-300 max-w-2xl mx-auto">
                 Évaluez vos connaissances techniques avec notre quiz complet. 
-                5 questions couvrant différents domaines de l'informatique.
+                5 questions couvrant différents domaines de l&apos;informatique.
               </CardDescription>
             </CardHeader>
 
@@ -516,7 +516,7 @@ export default function QuizSolo() {
                   onClick={() => router.push('/')}
                 >
                   <Home className="h-4 w-4 mr-2" />
-                  Retour à l'accueil
+                  Retour à l&apos;accueil
                 </Button>
               </div>
             </CardContent>

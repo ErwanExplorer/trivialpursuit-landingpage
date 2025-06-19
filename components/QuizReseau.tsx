@@ -627,7 +627,7 @@ export default function QuizSolo() {
               onClick={() => router.push('/')}
             >
               <Home className="h-4 w-4 mr-2" />
-              Retour à l'accueil
+              Retour à l&apos;accueil
             </Button>
           </div>
 
@@ -640,7 +640,7 @@ export default function QuizSolo() {
                 Test de Niveau - Réseaux
               </CardTitle>
               <CardDescription className="text-lg text-slate-300 max-w-2xl mx-auto">
-                Mets tes skills en réseaux à l'épreuve avec ce quiz next-gen ! 
+                Mets tes skills en réseaux à l&apos;épreuve avec ce quiz next-gen ! 
                 35 questions pour tester tes connaissances en networking.
               </CardDescription>
             </CardHeader>
@@ -924,7 +924,7 @@ export default function QuizSolo() {
                   onClick={() => router.push('/')}
                 >
                   <Home className="h-4 w-4 mr-2" />
-                  Retour à l'accueil
+                  Retour à l&apos;accueil
                 </Button>
               </div>
             </CardContent>

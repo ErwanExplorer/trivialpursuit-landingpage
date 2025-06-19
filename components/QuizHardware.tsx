@@ -606,7 +606,7 @@ export default function QuizSoloHardware() {
               onClick={() => router.push('/')}
             >
               <Home className="h-4 w-4 mr-2" />
-              Retour à l'accueil
+              Retour à l&apos;accueil
             </Button>
           </div>
 
@@ -619,7 +619,7 @@ export default function QuizSoloHardware() {
                 Test de Niveau - Hardware
               </CardTitle>
               <CardDescription className="text-lg text-slate-300 max-w-2xl mx-auto">
-                Prêt à tester tes skills en hardware ? Ce quiz ultime avec 51 questions va évaluer ton savoir sur les composants électroniques et l'Arduino. Go all in !
+                Prêt à tester tes skills en hardware ? Ce quiz ultime avec 51 questions va évaluer ton savoir sur les composants électroniques et l&apos;Arduino. Go all in !
               </CardDescription>
             </CardHeader>
 
@@ -902,7 +902,7 @@ export default function QuizSoloHardware() {
                   onClick={() => router.push('/')}
                 >
                   <Home className="h-4 w-4 mr-2" />
-                  Retour à l'accueil
+                  Retour à l&apos;accueil
                 </Button>
               </div>
             </CardContent>
