@@ -196,6 +196,346 @@ const questions: Question[] = [
     correctAnswer: 1,
     difficulty: "Débutant",
     explanation: "Apple a été fondé par Steve Jobs, Steve Wozniak et Ronald Wayne (qui a rapidement vendu sa part)."
+  },
+  {
+    id: 16,
+    category: "Culture Geek",
+    question: "Quelle entreprise a créé Windows ?",
+    options: ["Apple", "IBM", "Microsoft", "Intel"],
+    correctAnswer: 2,
+    difficulty: "Débutant",
+    explanation: "Microsoft a créé Windows, le système d'exploitation le plus utilisé sur les ordinateurs personnels."
+  },
+  {
+    id: 17,
+    category: "Culture Geek",
+    question: "Quel système d’exploitation est le plus utilisé sur les ordinateurs personnels ?",
+    options: ["Linux", "macOS", "Windows", "Chrome OS"],
+    correctAnswer: 2,
+    difficulty: "Débutant",
+    explanation: "Windows est le système d'exploitation dominant sur les PC, avec une part de marché majoritaire."
+  },
+  {
+    id: 18,
+    category: "Culture Geek",
+    question: "Qui est le cofondateur d’Apple avec Steve Jobs ?",
+    options: ["Bill Gates", "Elon Musk", "Steve Wozniak", "Jeff Bezos"],
+    correctAnswer: 2,
+    difficulty: "Débutant",
+    explanation: "Steve Wozniak, surnommé 'Woz', a cofondé Apple avec Steve Jobs et a conçu les premiers ordinateurs Apple."
+  },
+  {
+    id: 19,
+    category: "Culture Geek",
+    question: "Quel langage de programmation est principalement utilisé pour le web côté client ?",
+    options: ["Python", "JavaScript", "C++", "SQL"],
+    correctAnswer: 1,
+    difficulty: "Débutant",
+    explanation: "JavaScript est le langage principal pour le développement web côté client, permettant des interactions dynamiques sur les sites."
+  },
+  {
+    id: 20,
+    category: "Culture Geek",
+    question: "Quelle entreprise a conçu les processeurs Core i3, i5 et i7 ?",
+    options: ["AMD", "Intel", "Nvidia", "Qualcomm"],
+    correctAnswer: 1,
+    difficulty: "Débutant",
+    explanation: "Intel est le fabricant des processeurs Core i3, i5 et i7, largement utilisés dans les PC."
+  },
+  {
+    id: 21,
+    category: "Culture Geek",
+    question: "Que signifie 'URL' ?",
+    options: [
+      "Unique Routing Link",
+      "Unified Resource Layer",
+      "Uniform Resource Locator",
+      "Universal Redirect Location"
+    ],
+    correctAnswer: 2,
+    difficulty: "Débutant",
+    explanation: "URL signifie Uniform Resource Locator, c'est l'adresse utilisée pour accéder à une ressource sur Internet."
+  },
+  {
+    id: 22,
+    category: "Culture Geek",
+    question: "Quel navigateur a été développé par Mozilla ?",
+    options: ["Edge", "Firefox", "Safari", "Opera"],
+    correctAnswer: 1,
+    difficulty: "Débutant",
+    explanation: "Firefox est le navigateur web développé par la Mozilla Corporation, connu pour son respect de la vie privée."
+  },
+  {
+    id: 23,
+    category: "Culture Geek",
+    question: "Qu’est-ce qu’un octet ?",
+    options: [
+      "Une puce informatique",
+      "Une unité de stockage valant 8 bits",
+      "Un protocole réseau",
+      "Un langage machine"
+    ],
+    correctAnswer: 1,
+    difficulty: "Débutant",
+    explanation: "Un octet est une unité de stockage numérique composée de 8 bits, utilisée pour représenter un caractère ou une donnée."
+  },
+  {
+    id: 24,
+    category: "Culture Geek",
+    question: "Quel composant est essentiel pour exécuter des calculs dans un PC ?",
+    options: ["Disque dur", "Processeur (CPU)", "Carte réseau", "Écran"],
+    correctAnswer: 1,
+    difficulty: "Débutant",
+    explanation: "Le processeur (CPU) est le cerveau de l'ordinateur, chargé d'exécuter les calculs et les instructions."
+  },
+  {
+    id: 25,
+    category: "Culture Geek",
+    question: "Quel est le principal langage utilisé pour interroger une base de données relationnelle ?",
+    options: ["HTML", "Bash", "SQL", "CSS"],
+    correctAnswer: 2,
+    difficulty: "Débutant",
+    explanation: "SQL (Structured Query Language) est utilisé pour interroger et gérer les bases de données relationnelles."
+  },
+  {
+    id: 26,
+    category: "Culture Geek",
+    question: "Quel est le rôle d’un système d’exploitation ?",
+    options: [
+      "Refroidir le processeur",
+      "Gérer les ressources matérielles et logicielles d’un ordinateur",
+      "Lancer des jeux",
+      "Connecter à Internet"
+    ],
+    correctAnswer: 1,
+    difficulty: "Intermédiaire",
+    explanation: "Un système d'exploitation gère les ressources matérielles (CPU, mémoire) et logicielles pour faire fonctionner un ordinateur."
+  },
+  {
+    id: 27,
+    category: "Culture Geek",
+    question: "Quel est le nom complet de l’entreprise IBM ?",
+    options: [
+      "International Basic Machines",
+      "International Business Machines",
+      "Integrated Binary Machines",
+      "Informatic Business Makers"
+    ],
+    correctAnswer: 1,
+    difficulty: "Intermédiaire",
+    explanation: "IBM signifie International Business Machines, une entreprise historique dans l'informatique."
+  },
+  {
+    id: 28,
+    category: "Culture Geek",
+    question: "Que signifie HTTPS ?",
+    options: [
+      "Hyper Transfer Page Script",
+      "HyperText Transfer Protocol Secure",
+      "Highly Typed Protocol Server",
+      "Host TCP Secure"
+    ],
+    correctAnswer: 1,
+    difficulty: "Intermédiaire",
+    explanation: "HTTPS (HyperText Transfer Protocol Secure) est une version sécurisée de HTTP, utilisant le chiffrement SSL/TLS."
+  },
+  {
+    id: 29,
+    category: "Culture Geek",
+    question: "Quelle entreprise est propriétaire du système Android ?",
+    options: ["Apple", "Google", "Microsoft", "Oracle"],
+    correctAnswer: 1,
+    difficulty: "Intermédiaire",
+    explanation: "Google est le propriétaire d'Android, un système d'exploitation mobile open-source."
+  },
+  {
+    id: 30,
+    category: "Culture Geek",
+    question: "Quel est l’objectif d’un pare-feu (firewall) ?",
+    options: [
+      "Éteindre l’ordinateur en cas de surchauffe",
+      "Contrôler les connexions réseau entrantes et sortantes",
+      "Scanner les virus",
+      "Crypter les fichiers"
+    ],
+    correctAnswer: 1,
+    difficulty: "Intermédiaire",
+    explanation: "Un pare-feu contrôle les connexions réseau pour protéger un système contre les accès non autorisés."
+  },
+  {
+    id: 31,
+    category: "Culture Geek",
+    question: "Qu’est-ce que Git ?",
+    options: [
+      "Un moteur de recherche",
+      "Un langage de programmation",
+      "Un système de gestion de versions",
+      "Un navigateur"
+    ],
+    correctAnswer: 2,
+    difficulty: "Intermédiaire",
+    explanation: "Git est un système de gestion de versions permettant de suivre les modifications du code source."
+  },
+  {
+    id: 32,
+    category: "Culture Geek",
+    question: "Quelle extension correspond à un fichier exécutable sous Windows ?",
+    options: [".doc", ".exe", ".png", ".html"],
+    correctAnswer: 1,
+    difficulty: "Intermédiaire",
+    explanation: "L'extension .exe désigne un fichier exécutable sous Windows, capable de lancer un programme."
+  },
+  {
+    id: 33,
+    category: "Culture Geek",
+    question: "Que signifie 'CPU' ?",
+    options: [
+      "Central Power Unit",
+      "Central Processing Unit",
+      "Core Processor Utility",
+      "Central Public Unit"
+    ],
+    correctAnswer: 1,
+    difficulty: "Intermédiaire",
+    explanation: "CPU signifie Central Processing Unit, c'est le composant principal qui exécute les instructions d'un ordinateur."
+  },
+  {
+    id: 34,
+    category: "Culture Geek",
+    question: "En quelle année a été fondée Microsoft ?",
+    options: ["1985", "1980", "1975", "1990"],
+    correctAnswer: 2,
+    difficulty: "Intermédiaire",
+    explanation: "Microsoft a été fondé en 1975 par Bill Gates et Paul Allen."
+  },
+  {
+    id: 35,
+    category: "Culture Geek",
+    question: "Quel système Linux est le plus utilisé pour les serveurs ?",
+    options: ["Linux Mint", "Arch Linux", "Elementary OS", "Ubuntu Server"],
+    correctAnswer: 3,
+    difficulty: "Intermédiaire",
+    explanation: "Ubuntu Server est une distribution Linux populaire pour les serveurs grâce à sa stabilité et son support."
+  },
+  {
+    id: 36,
+    category: "Culture Geek",
+    question: "Quel est le rôle du DNS ?",
+    options: [
+      "Gérer les disques durs",
+      "Traduire les noms de domaines en adresses IP",
+      "Chiffrer les communications",
+      "Protéger les emails"
+    ],
+    correctAnswer: 1,
+    difficulty: "Avancé",
+    explanation: "Le DNS (Domain Name System) traduit les noms de domaines (comme google.com) en adresses IP utilisables par les machines."
+  },
+  {
+    id: 37,
+    category: "Culture Geek",
+    question: "Qu’est-ce qu’une adresse MAC ?",
+    options: [
+      "Une adresse IP publique",
+      "L’identifiant d’un disque dur",
+      "L’identifiant physique unique d’une carte réseau",
+      "L’adresse d’un site web"
+    ],
+    correctAnswer: 2,
+    difficulty: "Avancé",
+    explanation: "Une adresse MAC (Media Access Control) est un identifiant unique attribué à une carte réseau pour la communication sur un réseau."
+  },
+  {
+    id: 38,
+    category: "Culture Geek",
+    question: "Qui est considéré comme le père de l'informatique moderne ?",
+    options: ["Tim Berners-Lee", "Dennis Ritchie", "Alan Turing", "Bill Gates"],
+    correctAnswer: 2,
+    difficulty: "Avancé",
+    explanation: "Alan Turing est considéré comme le père de l'informatique moderne pour ses travaux sur la théorie du calcul et la machine de Turing."
+  },
+  {
+    id: 39,
+    category: "Culture Geek",
+    question: "Quel composant conserve les données en cas de coupure d’alimentation ?",
+    options: ["RAM", "Disque dur ou SSD", "Processeur", "Carte mère"],
+    correctAnswer: 1,
+    difficulty: "Avancé",
+    explanation: "Les disques durs et SSD conservent les données de manière permanente, contrairement à la RAM qui est volatile."
+  },
+  {
+    id: 40,
+    category: "Culture Geek",
+    question: "Que signifie 'BIOS' ?",
+    options: [
+      "Basic Integrated Output System",
+      "Binary Input Output Structure",
+      "Basic Input Output System",
+      "Base Internal Operating System"
+    ],
+    correctAnswer: 2,
+    difficulty: "Avancé",
+    explanation: "BIOS (Basic Input Output System) est un firmware qui initialise le matériel au démarrage d’un ordinateur."
+  },
+  {
+    id: 41,
+    category: "Culture Geek",
+    question: "Qu’est-ce qu’un protocole réseau ?",
+    options: [
+      "Un type de câble",
+      "Un ensemble de règles pour la communication entre machines",
+      "Un logiciel antivirus",
+      "Une carte graphique"
+    ],
+    correctAnswer: 1,
+    difficulty: "Avancé",
+    explanation: "Un protocole réseau définit les règles pour la communication entre appareils, comme TCP/IP pour Internet."
+  },
+  {
+    id: 42,
+    category: "Culture Geek",
+    question: "Quel langage est utilisé pour les scripts en ligne de commande sous Linux ?",
+    options: ["Python", "SQL", "Bash", "PHP"],
+    correctAnswer: 2,
+    difficulty: "Avancé",
+    explanation: "Bash (Bourne Again Shell) est le langage de script par défaut pour les commandes sous Linux."
+  },
+  {
+    id: 43,
+    category: "Culture Geek",
+    question: "Que permet le protocole FTP ?",
+    options: [
+      "Chiffrer les messages",
+      "Transférer des fichiers sur un réseau",
+      "Gérer des emails",
+      "Bloquer les virus"
+    ],
+    correctAnswer: 1,
+    difficulty: "Avancé",
+    explanation: "FTP (File Transfer Protocol) permet de transférer des fichiers entre un client et un serveur sur un réseau."
+  },
+  {
+    id: 44,
+    category: "Culture Geek",
+    question: "Qu’est-ce qu’un 'cloud' en informatique ?",
+    options: [
+      "Une sauvegarde locale",
+      "Un service distant de stockage ou de traitement de données",
+      "Un type de processeur",
+      "Une carte son"
+    ],
+    correctAnswer: 1,
+    difficulty: "Avancé",
+    explanation: "Le cloud computing fournit des services de stockage et de calcul via des serveurs distants accessibles sur Internet."
+  },
+  {
+    id: 45,
+    category: "Culture Geek",
+    question: "Quel outil de virtualisation est développé par Oracle ?",
+    options: ["Hyper-V", "VMware", "Parallels", "VirtualBox"],
+    correctAnswer: 3,
+    difficulty: "Avancé",
+    explanation: "VirtualBox est un outil de virtualisation open-source développé par Oracle."
   }
 ]
 
@@ -335,12 +675,11 @@ export default function QuizCultureGeek() {
               </CardTitle>
               <CardDescription className="text-lg text-slate-300 max-w-2xl mx-auto">
                 Testez vos connaissances sur l'univers tech ! 
-                Histoire de l'informatique, grandes entreprises, technologies...
+                Histoire de l'informatique, grandes entreprises, technologies... 10 questions random pour un max de fun !
               </CardDescription>
             </CardHeader>
 
             <CardContent className="space-y-8">
-              {/* Informations du quiz */}
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center p-6 bg-slate-700/30 rounded-lg">
                   <Clock className="h-8 w-8 text-indigo-400 mx-auto mb-3" />
@@ -359,7 +698,6 @@ export default function QuizCultureGeek() {
                 </div>
               </div>
 
-              {/* Sujets couverts */}
               <div>
                 <h3 className="text-xl font-semibold text-white mb-4 text-center">
                   Sujets abordés
@@ -373,7 +711,6 @@ export default function QuizCultureGeek() {
                 </div>
               </div>
 
-              {/* Bouton de démarrage */}
               <div className="text-center pt-6">
                 <Button 
                   onClick={startQuiz}
@@ -398,7 +735,6 @@ export default function QuizCultureGeek() {
     return (
       <div className="min-h-screen bg-gradient-to-br from-slate-900 via-indigo-900 to-purple-900 p-6">
         <div className="container mx-auto max-w-4xl">
-          {/* Header avec progression */}
           <div className="mb-8">
             <div className="flex justify-between items-center mb-4">
               <div className="text-white">
@@ -439,7 +775,6 @@ export default function QuizCultureGeek() {
             </CardHeader>
 
             <CardContent className="space-y-4">
-              {/* Options de réponse */}
               <div className="space-y-3">
                 {question.options.map((option, index) => {
                   let buttonClass = "w-full p-4 text-left border-2 transition-all duration-300 "
@@ -482,7 +817,6 @@ export default function QuizCultureGeek() {
                 })}
               </div>
 
-              {/* Explication */}
               {showExplanation && (
                 <Card className="bg-slate-700/30 border-slate-600 mt-6">
                   <CardContent className="p-4">
@@ -499,7 +833,6 @@ export default function QuizCultureGeek() {
                 </Card>
               )}
 
-              {/* Bouton suivant */}
               {showExplanation && (
                 <div className="text-center pt-6">
                   <Button 
@@ -549,7 +882,6 @@ export default function QuizCultureGeek() {
             </CardHeader>
 
             <CardContent className="space-y-8">
-              {/* Score principal */}
               <div className="text-center bg-slate-700/30 rounded-lg p-8">
                 <div className="text-6xl font-bold text-white mb-2">
                   {score}/{shuffledQuestions.length}
@@ -562,7 +894,6 @@ export default function QuizCultureGeek() {
                 </Badge>
               </div>
 
-              {/* Message personnalisé */}
               <div className="text-center bg-indigo-500/10 border border-indigo-500/30 rounded-lg p-6">
                 <h3 className="text-xl font-semibold text-white mb-2">
                   {percentage >= 80 ? "🏆 Incroyable !" : 
@@ -576,7 +907,6 @@ export default function QuizCultureGeek() {
                 </p>
               </div>
 
-              {/* Détail des réponses */}
               <div>
                 <h3 className="text-xl font-semibold text-white mb-4">Détail des réponses</h3>
                 <div className="space-y-3">
@@ -630,7 +960,6 @@ export default function QuizCultureGeek() {
                 </div>
               </div>
 
-              {/* Actions */}
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button 
                   onClick={resetQuiz}

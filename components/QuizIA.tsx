@@ -171,6 +171,426 @@ const questions: Question[] = [
     correctAnswer: 1,
     difficulty: "Débutant",
     explanation: "L’IA est utilisée dans la navigation autonome des drones pour traiter les données des capteurs et prendre des décisions en temps réel, comme éviter les obstacles."
+  },
+  {
+    id: 11,
+    category: "IA et Robotique",
+    question: "Que signifie 'IA' ?",
+    options: [
+      "Ingénierie Avancée",
+      "Intelligence Artificielle",
+      "Interface Automatisée",
+      "Instruction Adaptée"
+    ],
+    correctAnswer: 1,
+    difficulty: "Débutant",
+    explanation: "IA signifie 'Intelligence Artificielle', une discipline visant à créer des systèmes capables de simuler l’intelligence humaine."
+  },
+  {
+    id: 12,
+    category: "IA et Robotique",
+    question: "Quel est le but principal de l’IA ?",
+    options: [
+      "Créer des virus",
+      "Produire de l’électricité",
+      "Reproduire ou simuler l’intelligence humaine",
+      "Remplacer les écrans"
+    ],
+    correctAnswer: 2,
+    difficulty: "Débutant",
+    explanation: "L’IA cherche à reproduire ou simuler des capacités humaines comme le raisonnement, la perception ou la prise de décision."
+  },
+  {
+    id: 13,
+    category: "IA et Robotique",
+    question: "Quel langage est souvent utilisé en IA ?",
+    options: [
+      "HTML",
+      "Python",
+      "CSS",
+      "PHP"
+    ],
+    correctAnswer: 1,
+    difficulty: "Débutant",
+    explanation: "Python est largement utilisé en IA grâce à ses bibliothèques puissantes comme TensorFlow, PyTorch ou Scikit-learn."
+  },
+  {
+    id: 14,
+    category: "IA et Robotique",
+    question: "Qu’est-ce qu’un robot ?",
+    options: [
+      "Un humain déguisé",
+      "Une machine capable d’exécuter des tâches automatiquement",
+      "Un jouet connecté uniquement",
+      "Un type de logiciel antivirus"
+    ],
+    correctAnswer: 1,
+    difficulty: "Débutant",
+    explanation: "Un robot est une machine programmable capable d’effectuer des tâches automatiquement, souvent avec des capteurs et des actionneurs."
+  },
+  {
+    id: 15,
+    category: "IA et Robotique",
+    question: "Quel domaine ne fait PAS partie de l’IA ?",
+    options: [
+      "Maçonnerie",
+      "Traitement du langage",
+      "Vision par ordinateur",
+      "Apprentissage automatique"
+    ],
+    correctAnswer: 0,
+    difficulty: "Débutant",
+    explanation: "La maçonnerie est un métier manuel, tandis que le traitement du langage, la vision par ordinateur et l’apprentissage automatique sont des sous-domaines de l’IA."
+  },
+  {
+    id: 16,
+    category: "IA et Robotique",
+    question: "Quel est le rôle des capteurs dans un robot ?",
+    options: [
+      "Émettre du son",
+      "Recevoir des informations sur l’environnement",
+      "Envoyer des emails",
+      "Créer du texte"
+    ],
+    correctAnswer: 1,
+    difficulty: "Débutant",
+    explanation: "Les capteurs collectent des informations sur l’environnement (distance, lumière, température, etc.) pour guider les actions du robot."
+  },
+  {
+    id: 17,
+    category: "IA et Robotique",
+    question: "Quelle IA a battu le champion du monde de Go en 2016 ?",
+    options: [
+      "Watson",
+      "AlphaGo",
+      "Deep Blue",
+      "Sophia"
+    ],
+    correctAnswer: 1,
+    difficulty: "Débutant",
+    explanation: "AlphaGo, développé par DeepMind, a battu le champion du monde de Go, Lee Sedol, en 2016, marquant une avancée majeure en IA."
+  },
+  {
+    id: 18,
+    category: "IA et Robotique",
+    question: "Quel est un type courant d’apprentissage en IA ?",
+    options: [
+      "Apprentissage vocal",
+      "Apprentissage par dessin",
+      "Apprentissage supervisé",
+      "Apprentissage manuscrit"
+    ],
+    correctAnswer: 2,
+    difficulty: "Débutant",
+    explanation: "L’apprentissage supervisé est un type courant d’IA où un modèle est entraîné avec des données étiquetées pour prédire des résultats."
+  },
+  {
+    id: 19,
+    category: "IA et Robotique",
+    question: "À quoi sert la vision par ordinateur ?",
+    options: [
+      "À écouter de la musique",
+      "À analyser le son",
+      "À comprendre des images ou vidéos",
+      "À traduire des textes"
+    ],
+    correctAnswer: 2,
+    difficulty: "Débutant",
+    explanation: "La vision par ordinateur analyse et interprète des images ou vidéos pour identifier des objets, des visages ou des mouvements."
+  },
+  {
+    id: 20,
+    category: "IA et Robotique",
+    question: "Quelle partie d’un robot permet de bouger ?",
+    options: [
+      "La batterie",
+      "Les capteurs",
+      "Les actionneurs",
+      "L’antenne"
+    ],
+    correctAnswer: 2,
+    difficulty: "Débutant",
+    explanation: "Les actionneurs, comme les moteurs ou servomoteurs, permettent au robot de bouger en convertissant l’énergie en mouvement."
+  },
+  {
+    id: 21,
+    category: "IA et Robotique",
+    question: "Qu’est-ce qu’un réseau de neurones artificiels ?",
+    options: [
+      "Un type de câble",
+      "Un modèle inspiré du cerveau humain pour traiter des données",
+      "Un outil de dessin",
+      "Un antivirus"
+    ],
+    correctAnswer: 1,
+    difficulty: "Intermédiaire",
+    explanation: "Un réseau de neurones artificiels est un modèle informatique inspiré du cerveau humain, utilisé pour traiter des données complexes."
+  },
+  {
+    id: 22,
+    category: "IA et Robotique",
+    question: "Quel est le rôle d’un algorithme dans une IA ?",
+    options: [
+      "Installer des programmes",
+      "Prendre des décisions à partir de données",
+      "Afficher des couleurs",
+      "Télécharger des fichiers"
+    ],
+    correctAnswer: 1,
+    difficulty: "Intermédiaire",
+    explanation: "Un algorithme en IA traite les données pour prendre des décisions, prédire des résultats ou effectuer des tâches spécifiques."
+  },
+  {
+    id: 23,
+    category: "IA et Robotique",
+    question: "Quel type d'IA consiste à imiter l’intelligence humaine dans des tâches précises ?",
+    options: [
+      "IA forte",
+      "IA faible (ou étroite)",
+      "IA biologique",
+      "IA universelle"
+    ],
+    correctAnswer: 1,
+    difficulty: "Intermédiaire",
+    explanation: "L’IA faible (ou étroite) est conçue pour exécuter des tâches spécifiques, comme la reconnaissance vocale, contrairement à l’IA forte qui vise une intelligence générale."
+  },
+  {
+    id: 24,
+    category: "IA et Robotique",
+    question: "Un robot aspirateur utilise principalement :",
+    options: [
+      "Des bras mécaniques",
+      "Une vision thermique",
+      "Des capteurs de distance et de mouvement",
+      "Une imprimante intégrée"
+    ],
+    correctAnswer: 2,
+    difficulty: "Intermédiaire",
+    explanation: "Les robots aspirateurs utilisent des capteurs de distance et de mouvement pour naviguer et éviter les obstacles dans un environnement."
+  },
+  {
+    id: 25,
+    category: "IA et Robotique",
+    question: "Qu’est-ce que le machine learning ?",
+    options: [
+      "L’apprentissage des humains par des robots",
+      "Une technologie de stockage",
+      "L’apprentissage automatique par les machines",
+      "Un site de téléchargement"
+    ],
+    correctAnswer: 2,
+    difficulty: "Intermédiaire",
+    explanation: "Le machine learning permet aux machines d’apprendre automatiquement à partir de données sans être explicitement programmées."
+  },
+  {
+    id: 26,
+    category: "IA et Robotique",
+    question: "Qu’est-ce que l’IA générative ?",
+    options: [
+      "Une IA qui consomme beaucoup d’énergie",
+      "Une IA spécialisée dans la traduction",
+      "Une IA capable de créer du contenu (texte, image, audio, etc.)",
+      "Une IA de sécurité"
+    ],
+    correctAnswer: 2,
+    difficulty: "Intermédiaire",
+    explanation: "L’IA générative crée du contenu original, comme du texte (ChatGPT) ou des images (DALL-E), à partir de données apprises."
+  },
+  {
+    id: 27,
+    category: "IA et Robotique",
+    question: "Quel est le principal inconvénient des IA actuelles ?",
+    options: [
+      "Elles ne peuvent pas se connecter à Internet",
+      "Elles sont toujours exactes",
+      "Elles peuvent être biaisées par les données",
+      "Elles fonctionnent sans électricité"
+    ],
+    correctAnswer: 2,
+    difficulty: "Intermédiaire",
+    explanation: "Les IA peuvent être biaisées si elles sont entraînées sur des données biaisées, ce qui peut affecter leurs décisions ou prédictions."
+  },
+  {
+    id: 28,
+    category: "IA et Robotique",
+    question: "Comment appelle-t-on une machine autonome capable de prendre des décisions en temps réel ?",
+    options: [
+      "Un automate",
+      "Une tablette",
+      "Un robot autonome",
+      "Un GPS"
+    ],
+    correctAnswer: 2,
+    difficulty: "Intermédiaire",
+    explanation: "Un robot autonome utilise des capteurs et des algorithmes pour prendre des décisions en temps réel sans intervention humaine."
+  },
+  {
+    id: 29,
+    category: "IA et Robotique",
+    question: "Quel domaine est lié à l’IA conversationnelle ?",
+    options: [
+      "Photographie",
+      "Traitement du langage naturel (NLP)",
+      "Gestion réseau",
+      "Gravure laser"
+    ],
+    correctAnswer: 1,
+    difficulty: "Intermédiaire",
+    explanation: "L’IA conversationnelle repose sur le traitement du langage naturel (NLP) pour comprendre et répondre aux interactions humaines."
+  },
+  {
+    id: 30,
+    category: "IA et Robotique",
+    question: "Quel est le rôle d’un actuateur dans un robot ?",
+    options: [
+      "Afficher des images",
+      "Convertir un signal en mouvement (ex : moteur, servo)",
+      "Analyser des données",
+      "Traduire des textes"
+    ],
+    correctAnswer: 1,
+    difficulty: "Intermédiaire",
+    explanation: "Un actuateur convertit un signal électrique en mouvement physique, comme un moteur qui fait tourner les roues d’un robot."
+  },
+  {
+    id: 31,
+    category: "IA et Robotique",
+    question: "Qu’est-ce que le deep learning ?",
+    options: [
+      "Un logiciel de dessin",
+      "Une forme avancée de machine learning basée sur les réseaux de neurones profonds",
+      "Un type de virus",
+      "Une méthode de traduction"
+    ],
+    correctAnswer: 1,
+    difficulty: "Avancé",
+    explanation: "Le deep learning est une branche du machine learning utilisant des réseaux de neurones profonds pour traiter des données complexes."
+  },
+  {
+    id: 32,
+    category: "IA et Robotique",
+    question: "Quelle loi encadre l’usage des robots autonomes dans l’éthique ?",
+    options: [
+      "Code Napoléon",
+      "Les trois lois de la robotique (Asimov)",
+      "Loi de Moore",
+      "Loi de Turing"
+    ],
+    correctAnswer: 1,
+    difficulty: "Avancé",
+    explanation: "Les trois lois de la robotique d’Isaac Asimov sont des principes éthiques fictifs mais influents pour guider le comportement des robots."
+  },
+  {
+    id: 33,
+    category: "IA et Robotique",
+    question: "Quelle entreprise a conçu ChatGPT ?",
+    options: [
+      "Google",
+      "Meta",
+      "OpenAI",
+      "Amazon"
+    ],
+    correctAnswer: 2,
+    difficulty: "Avancé",
+    explanation: "OpenAI est l’entreprise à l’origine de ChatGPT, un modèle d’IA conversationnelle basé sur l’architecture GPT."
+  },
+  {
+    id: 34,
+    category: "IA et Robotique",
+    question: "Un bras robotisé dans une usine utilise principalement :",
+    options: [
+      "L’IA forte",
+      "La robotique industrielle avec contrôle automatisé",
+      "Le deepfake",
+      "L’impression 3D"
+    ],
+    correctAnswer: 1,
+    difficulty: "Avancé",
+    explanation: "Les bras robotisés en usine utilisent la robotique industrielle avec des systèmes de contrôle automatisé pour des tâches précises."
+  },
+  {
+    id: 35,
+    category: "IA et Robotique",
+    question: "Qu’est-ce qu’un drone autonome utilise pour s’orienter ?",
+    options: [
+      "Un micro",
+      "Une boussole",
+      "Un GPS et des capteurs (gyroscope, caméra, lidar, etc.)",
+      "Un joystick"
+    ],
+    correctAnswer: 2,
+    difficulty: "Avancé",
+    explanation: "Un drone autonome s’oriente grâce à un GPS et des capteurs comme des gyroscopes, caméras ou lidars pour naviguer précisément."
+  },
+  {
+    id: 36,
+    category: "IA et Robotique",
+    question: "Quelle est la différence entre IA faible et IA forte ?",
+    options: [
+      "L’IA forte peut raisonner et comprendre, l’IA faible exécute des tâches précises",
+      "L’IA faible est plus rapide",
+      "L’IA forte ne fait que traduire",
+      "Aucune différence"
+    ],
+    correctAnswer: 0,
+    difficulty: "Avancé",
+    explanation: "L’IA forte vise une intelligence générale proche de l’humain, tandis que l’IA faible est spécialisée dans des tâches spécifiques."
+  },
+  {
+    id: 37,
+    category: "IA et Robotique",
+    question: "Quelle est la fonction du LIDAR dans un robot ?",
+    options: [
+      "Lire des codes QR",
+      "Mesurer la distance avec un laser pour cartographier l’environnement",
+      "Écouter le son",
+      "Créer des images 3D"
+    ],
+    correctAnswer: 1,
+    difficulty: "Avancé",
+    explanation: "Le LIDAR utilise des lasers pour mesurer les distances et créer une carte 3D de l’environnement, essentiel pour la navigation."
+  },
+  {
+    id: 38,
+    category: "IA et Robotique",
+    question: "Qu’est-ce qu’un chatbot ?",
+    options: [
+      "Un programme malveillant",
+      "Un robot physique",
+      "Une IA capable de converser automatiquement avec un humain",
+      "Un moteur de recherche"
+    ],
+    correctAnswer: 2,
+    difficulty: "Avancé",
+    explanation: "Un chatbot est une IA conversationnelle qui interagit avec les humains via du texte ou de la voix, comme pour répondre à des questions."
+  },
+  {
+    id: 39,
+    category: "IA et Robotique",
+    question: "Quelle est la limite des IA actuelles ?",
+    options: [
+      "Elles sont immortelles",
+      "Elles n’ont pas de conscience ou de compréhension réelle",
+      "Elles créent des émotions humaines",
+      "Elles peuvent se reproduire seules"
+    ],
+    correctAnswer: 1,
+    difficulty: "Avancé",
+    explanation: "Les IA actuelles n’ont pas de conscience ni de compréhension réelle; elles se basent sur des modèles statistiques pour fonctionner."
+  },
+  {
+    id: 40,
+    category: "IA et Robotique",
+    question: "Pourquoi entraîne-t-on une IA ?",
+    options: [
+      "Pour lui donner un antivirus",
+      "Pour la rendre plus légère",
+      "Pour qu’elle apprenne à effectuer une tâche avec précision",
+      "Pour changer son apparence"
+    ],
+    correctAnswer: 2,
+    difficulty: "Avancé",
+    explanation: "L’entraînement d’une IA consiste à ajuster ses paramètres pour qu’elle effectue une tâche spécifique avec précision à partir de données."
   }
 ]
 
@@ -300,8 +720,7 @@ export default function QuizSoloAIandRobotics() {
                 Test de Niveau - IA et Robotique
               </CardTitle>
               <CardDescription className="text-lg text-slate-300 max-w-2xl mx-auto">
-                Plonge dans le futur avec ce quiz sur l’IA et la robotique ! 
-                10 questions pour tester tes skills en intelligence artificielle et systèmes robotisés.
+                Plonge dans le futur avec ce quiz sur l’IA et la robotique ! 40 questions pour tester tes skills en intelligence artificielle et systèmes robotisés. Ready pour le challenge ?
               </CardDescription>
             </CardHeader>
 
@@ -315,7 +734,7 @@ export default function QuizSoloAIandRobotics() {
                 <div className="text-center p-6 bg-slate-700/30 rounded-lg">
                   <Target className="h-8 w-8 text-blue-400 mx-auto mb-3" />
                   <h3 className="text-white font-semibold mb-2">Questions</h3>
-                  <p className="text-slate-300">10 questions</p>
+                  <p className="text-slate-300">40 questions</p>
                 </div>
                 <div className="text-center p-6 bg-slate-700/30 rounded-lg">
                   <Award className="h-8 w-8 text-green-400 mx-auto mb-3" />

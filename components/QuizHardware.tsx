@@ -220,6 +220,276 @@ const questions: Question[] = [
     correctAnswer: 2,
     difficulty: "Intermédiaire",
     explanation: "Sur une résistance à 4 anneaux, le second anneau représente le deuxième chiffre de la valeur de la résistance."
+  },
+  {
+    id: 22,
+    category: "Hardware",
+    question: "Quel est le rôle du processeur (CPU) dans un ordinateur ?",
+    options: ["Afficher les images", "Sauvegarder les fichiers", "Exécuter les instructions et les calculs", "Fournir de l’énergie"],
+    correctAnswer: 2,
+    difficulty: "Débutant",
+    explanation: "Le processeur (CPU) est le cerveau de l'ordinateur, chargé d'exécuter les instructions et d'effectuer les calculs nécessaires au fonctionnement des programmes."
+  },
+  {
+    id: 23,
+    category: "Hardware",
+    question: "Quelle unité mesure la fréquence d’un processeur ?",
+    options: ["Volt", "Hertz", "Gigahertz (GHz)", "Octets"],
+    correctAnswer: 2,
+    difficulty: "Débutant",
+    explanation: "La fréquence d’un processeur est mesurée en Gigahertz (GHz), une unité dérivée du Hertz, qui indique le nombre de cycles par seconde."
+  },
+  {
+    id: 24,
+    category: "Hardware",
+    question: "Quelle est la fonction principale de la RAM ?",
+    options: ["Alimenter l’écran", "Stocker définitivement les fichiers", "Stocker temporairement les données en cours d’utilisation", "Gérer la ventilation"],
+    correctAnswer: 2,
+    difficulty: "Débutant",
+    explanation: "La RAM (Random Access Memory) stocke temporairement les données utilisées par le processeur pour un accès rapide pendant l'exécution des programmes."
+  },
+  {
+    id: 25,
+    category: "Hardware",
+    question: "Quel périphérique permet d’afficher des images à l’utilisateur ?",
+    options: ["Clavier", "Écran (moniteur)", "Disque dur", "Carte son"],
+    correctAnswer: 1,
+    difficulty: "Débutant",
+    explanation: "L’écran (moniteur) est le périphérique principal qui affiche les images et les informations visuelles à l’utilisateur."
+  },
+  {
+    id: 26,
+    category: "Hardware",
+    question: "Quel composant stocke les données de manière permanente ?",
+    options: ["RAM", "Disque dur (HDD ou SSD)", "Carte graphique", "Processeur"],
+    correctAnswer: 1,
+    difficulty: "Débutant",
+    explanation: "Le disque dur (HDD ou SSD) stocke les données de manière permanente, même lorsque l’ordinateur est éteint, contrairement à la RAM."
+  },
+  {
+    id: 27,
+    category: "Hardware",
+    question: "Que signifie l’acronyme 'SSD' ?",
+    options: ["Simple Storage Device", "Solid State Drive", "Soft Speed Drive", "Serial Storage Disk"],
+    correctAnswer: 1,
+    difficulty: "Débutant",
+    explanation: "SSD signifie 'Solid State Drive', un type de stockage sans pièces mobiles, plus rapide qu’un disque dur traditionnel (HDD)."
+  },
+  {
+    id: 28,
+    category: "Hardware",
+    question: "Quel composant est utilisé pour refroidir le processeur ?",
+    options: ["Carte réseau", "Ventilateur / système de refroidissement (ventirad)", "Batterie", "Alimentation"],
+    correctAnswer: 1,
+    difficulty: "Débutant",
+    explanation: "Un ventilateur ou un système de refroidissement (ventirad) est utilisé pour dissiper la chaleur générée par le processeur."
+  },
+  {
+    id: 29,
+    category: "Hardware",
+    question: "Quel périphérique est utilisé pour saisir du texte ?",
+    options: ["Écran", "Souris", "Clavier", "Webcam"],
+    correctAnswer: 2,
+    difficulty: "Débutant",
+    explanation: "Le clavier est le périphérique principal utilisé pour saisir du texte et des commandes dans un ordinateur."
+  },
+  {
+    id: 30,
+    category: "Hardware",
+    question: "Quel est le rôle de la carte mère ?",
+    options: ["Refroidir les composants", "Gérer l'affichage", "Connecter tous les composants entre eux", "Alimenter l'écran"],
+    correctAnswer: 2,
+    difficulty: "Débutant",
+    explanation: "La carte mère est la plateforme centrale qui connecte tous les composants d’un ordinateur, permettant leur communication."
+  },
+  {
+    id: 31,
+    category: "Hardware",
+    question: "Que fait une carte graphique ?",
+    options: ["Stocke des données", "Gère l’affichage des images et vidéos", "Fournit du son", "Améliore la vitesse Internet"],
+    correctAnswer: 1,
+    difficulty: "Débutant",
+    explanation: "La carte graphique (GPU) est responsable du rendu des images, vidéos et animations affichées à l’écran."
+  },
+  {
+    id: 32,
+    category: "Hardware",
+    question: "Quelle est la différence entre un SSD et un HDD ?",
+    options: ["Le HDD est plus rapide", "Le SSD utilise un disque mécanique", "Le SSD est plus rapide et sans pièces mobiles", "Ils sont identiques"],
+    correctAnswer: 2,
+    difficulty: "Intermédiaire",
+    explanation: "Un SSD est plus rapide et utilise de la mémoire flash sans pièces mobiles, contrairement au HDD qui repose sur des disques mécaniques."
+  },
+  {
+    id: 33,
+    category: "Hardware",
+    question: "Quelle est la principale fonction de l’alimentation (PSU) ?",
+    options: ["Fournir de l’électricité aux composants", "Refroidir l’ordinateur", "Stocker les logiciels", "Transmettre les données"],
+    correctAnswer: 0,
+    difficulty: "Intermédiaire",
+    explanation: "L’alimentation (PSU, Power Supply Unit) fournit l’électricité nécessaire au fonctionnement de tous les composants de l’ordinateur."
+  },
+  {
+    id: 34,
+    category: "Hardware",
+    question: "Quel port est utilisé pour connecter une souris USB ?",
+    options: ["HDMI", "RJ45", "USB", "VGA"],
+    correctAnswer: 2,
+    difficulty: "Intermédiaire",
+    explanation: "Le port USB est utilisé pour connecter des périphériques comme une souris ou un clavier à un ordinateur."
+  },
+  {
+    id: 35,
+    category: "Hardware",
+    question: "Quel composant est responsable du traitement graphique dans les jeux vidéo ?",
+    options: ["CPU", "GPU (carte graphique)", "RAM", "Disque dur"],
+    correctAnswer: 1,
+    difficulty: "Intermédiaire",
+    explanation: "Le GPU (Graphics Processing Unit) est spécialisé dans le traitement des calculs graphiques nécessaires aux jeux vidéo."
+  },
+  {
+    id: 36,
+    category: "Hardware",
+    question: "Comment s’appelle le boîtier qui contient tous les composants d’un ordinateur de bureau ?",
+    options: ["Moniteur", "Unité centrale (ou tour)", "Switch", "Scanner"],
+    correctAnswer: 1,
+    difficulty: "Intermédiaire",
+    explanation: "L’unité centrale (ou tour) est le boîtier qui abrite tous les composants principaux d’un ordinateur de bureau."
+  },
+  {
+    id: 37,
+    category: "Hardware",
+    question: "Quel composant contient le BIOS ou l’UEFI ?",
+    options: ["RAM", "Carte graphique", "Carte mère", "Disque dur"],
+    correctAnswer: 2,
+    difficulty: "Intermédiaire",
+    explanation: "Le BIOS ou l’UEFI est stocké sur une puce de la carte mère, gérant l’initialisation du matériel au démarrage."
+  },
+  {
+    id: 38,
+    category: "Hardware",
+    question: "Quelle est la différence entre HDMI et VGA ?",
+    options: ["HDMI transmet l’image et le son, VGA seulement l’image", "VGA est plus récent", "HDMI est un format de disque dur", "VGA est numérique, HDMI est analogique"],
+    correctAnswer: 0,
+    difficulty: "Intermédiaire",
+    explanation: "HDMI transmet à la fois l’image et le son en numérique, tandis que VGA transmet uniquement l’image en analogique."
+  },
+  {
+    id: 39,
+    category: "Hardware",
+    question: "Quel type de mémoire est effacée à chaque redémarrage de l’ordinateur ?",
+    options: ["SSD", "Disque dur", "RAM", "Carte graphique"],
+    correctAnswer: 2,
+    difficulty: "Intermédiaire",
+    explanation: "La RAM est une mémoire volatile qui perd toutes ses données lorsque l’ordinateur est redémarré."
+  },
+  {
+    id: 40,
+    category: "Hardware",
+    question: "Quelle unité mesure la capacité d’un disque dur ?",
+    options: ["Hertz", "Watts", "Pixels", "Gigaoctets (Go)"],
+    correctAnswer: 3,
+    difficulty: "Intermédiaire",
+    explanation: "La capacité d’un disque dur est mesurée en gigaoctets (Go) ou téraoctets (To), unités de stockage de données."
+  },
+  {
+    id: 41,
+    category: "Hardware",
+    question: "Quel composant est crucial pour le bon fonctionnement des logiciels lourds comme les jeux ou le montage vidéo ?",
+    options: ["Carte réseau", "Alimentation", "Carte graphique (GPU)", "Lecteur DVD"],
+    correctAnswer: 2,
+    difficulty: "Intermédiaire",
+    explanation: "La carte graphique (GPU) est essentielle pour les tâches gourmandes en calculs graphiques, comme les jeux ou le montage vidéo."
+  },
+  {
+    id: 42,
+    category: "Hardware",
+    question: "Quel port est utilisé pour brancher un écran moderne ?",
+    options: ["RJ45", "USB", "HDMI", "SATA"],
+    correctAnswer: 2,
+    difficulty: "Avancé",
+    explanation: "Le port HDMI est couramment utilisé pour connecter des écrans modernes, transmettant image et son en haute qualité."
+  },
+  {
+    id: 43,
+    category: "Hardware",
+    question: "Qu’est-ce qu’un bus sur une carte mère ?",
+    options: ["Un système de refroidissement", "Un circuit de transmission des données entre composants", "Une alimentation secondaire", "Un type de disque"],
+    correctAnswer: 1,
+    difficulty: "Avancé",
+    explanation: "Le bus est un système de communication sur la carte mère permettant le transfert de données entre les composants."
+  },
+  {
+    id: 44,
+    category: "Hardware",
+    question: "Quelle est la fonction du chipset sur une carte mère ?",
+    options: ["Augmenter le son", "Refroidir le CPU", "Gérer la communication entre les composants", "Alimenter le disque dur"],
+    correctAnswer: 2,
+    difficulty: "Avancé",
+    explanation: "Le chipset gère la communication entre le CPU, la RAM, le stockage et autres périphériques sur la carte mère."
+  },
+  {
+    id: 45,
+    category: "Hardware",
+    question: "Qu’est-ce qu’un socket (dans le contexte du CPU) ?",
+    options: ["Un câble d’alimentation", "Une mémoire externe", "Le support où l’on place le processeur sur la carte mère", "Un type de ventilateur"],
+    correctAnswer: 2,
+    difficulty: "Avancé",
+    explanation: "Le socket est l’emplacement physique sur la carte mère où le processeur est inséré pour établir la connexion."
+  },
+  {
+    id: 46,
+    category: "Hardware",
+    question: "Qu’est-ce qu’un overclocking ?",
+    options: ["Réduire la vitesse du processeur", "Augmenter volontairement la fréquence du processeur", "Supprimer le système d’exploitation", "Refroidir le processeur"],
+    correctAnswer: 1,
+    difficulty: "Avancé",
+    explanation: "L’overclocking consiste à augmenter la fréquence du processeur au-delà des spécifications d’usine pour améliorer les performances."
+  },
+  {
+    id: 47,
+    category: "Hardware",
+    question: "Qu’est-ce que le format ATX ?",
+    options: ["Une norme de carte graphique", "Un protocole de réseau", "Une norme de format de carte mère", "Une unité de mesure de données"],
+    correctAnswer: 2,
+    difficulty: "Avancé",
+    explanation: "ATX (Advanced Technology eXtended) est une norme définissant le format et les spécifications des cartes mères."
+  },
+  {
+    id: 48,
+    category: "Hardware",
+    question: "Quel est le rôle du dissipateur thermique ?",
+    options: ["Connecter les câbles", "Dissiper la chaleur d’un composant comme le CPU ou GPU", "Stocker les jeux", "Accélérer Internet"],
+    correctAnswer: 1,
+    difficulty: "Avancé",
+    explanation: "Le dissipateur thermique absorbe et disperse la chaleur générée par des composants comme le CPU ou le GPU pour éviter la surchauffe."
+  },
+  {
+    id: 49,
+    category: "Hardware",
+    question: "Que signifie l’acronyme GPU ?",
+    options: ["General Processing Unit", "Graphics Processing Unit", "Gigabyte Power Unit", "Graphical Performance Utility"],
+    correctAnswer: 1,
+    difficulty: "Avancé",
+    explanation: "GPU signifie 'Graphics Processing Unit', un composant spécialisé dans le traitement des calculs graphiques."
+  },
+  {
+    id: 50,
+    category: "Hardware",
+    question: "Qu’est-ce qu’un lecteur optique ?",
+    options: ["Un capteur de lumière", "Un lecteur de CD/DVD", "Un convertisseur audio", "Un type de mémoire RAM"],
+    correctAnswer: 1,
+    difficulty: "Avancé",
+    explanation: "Un lecteur optique lit et écrit des données sur des disques optiques comme les CD ou DVD à l’aide d’un laser."
+  },
+  {
+    id: 51,
+    category: "Hardware",
+    question: "Pourquoi utilise-t-on de la pâte thermique sur un processeur ?",
+    options: ["Pour le nettoyer", "Pour améliorer le transfert de chaleur entre le processeur et le ventirad", "Pour le fixer", "Pour accélérer les calculs"],
+    correctAnswer: 1,
+    difficulty: "Avancé",
+    explanation: "La pâte thermique améliore le transfert de chaleur entre le processeur et le dissipateur thermique (ventirad) pour une meilleure dissipation."
   }
 ]
 
@@ -349,7 +619,7 @@ export default function QuizSoloHardware() {
                 Test de Niveau - Hardware
               </CardTitle>
               <CardDescription className="text-lg text-slate-300 max-w-2xl mx-auto">
-                Prêt à tester tes skills en hardware ? Ce quiz ultime avec 21 questions va évaluer ton savoir sur les composants électroniques et l'Arduino. Go all in !
+                Prêt à tester tes skills en hardware ? Ce quiz ultime avec 51 questions va évaluer ton savoir sur les composants électroniques et l'Arduino. Go all in !
               </CardDescription>
             </CardHeader>
 
@@ -363,7 +633,7 @@ export default function QuizSoloHardware() {
                 <div className="text-center p-6 bg-slate-700/30 rounded-lg">
                   <Target className="h-8 w-8 text-blue-400 mx-auto mb-3" />
                   <h3 className="text-white font-semibold mb-2">Questions</h3>
-                  <p className="text-slate-300">21 questions</p>
+                  <p className="text-slate-300">51 questions</p>
                 </div>
                 <div className="text-center p-6 bg-slate-700/30 rounded-lg">
                   <Award className="h-8 w-8 text-green-400 mx-auto mb-3" />
