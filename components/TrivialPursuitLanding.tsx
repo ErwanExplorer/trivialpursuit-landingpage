@@ -102,7 +102,7 @@ export default function TrivialPursuitLanding() {
               Commencer à jouer
             </Button>
             <a 
-              href="http://192.168.1.147:5000" 
+              href="http://localhost:5000" 
               className="inline-flex items-center px-8 py-4 border-2 border-purple-400 text-purple-300 hover:bg-purple-600/20 text-lg"
             >
               <UserPlus className="h-5 w-5 mr-2" />
